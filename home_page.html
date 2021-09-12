@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/234d5140a6.js" crossorigin="anonymous"></script>
+    <title>SocialBook</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="img/logo.png" class='logo' alt="social book logo">
+            <ul>
+                <li><img src="img/notification.png" alt=""></li>
+                <li><img src="img/inbox.png" alt=""></li>
+                <li><img src="img/video.png" alt=""></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="img/search.png" alt="">
+                <input type="text" placeholder='Search'>
+            </div>
+
+            <div class="nav-user-icon online" onclick= "settingsMenuToggle()">
+                <img src="img/profile.png" alt="">
+            </div>
+        </div>
+
+        <!-- setting-menu -->
+        <div class="setting-menu" >
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="setting-inner">
+
+                <div class="user-profile">
+                    <img src="img/profile.png">
+                    <div>
+                        <p>John Micholson</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                
+                <div class="user-profile">
+                    <img src="img/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+
+                <div class="setting-links">
+                    <img src="img/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="img/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="img/help.png" class="settings-icon">
+                    <a href="#">help & Support <img src="img/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="img/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility<img src="img/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="img/logout.png" class="settings-icon">
+                    <a href="#">Logout<img src="img/arrow.png" width="10px"></a>
+                </div>
+            </div>
+                
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- left sidebar -->
+        <div class="left-sidebar">
+
+            <div class="imp-links">
+                <a href="#"><img src="img/news.png">Latest News</a>
+                <a href="#"><img src="img/friends.png">Friends</a>
+                <a href="#"><img src="img/group.png">Group</a>
+                <a href="#"><img src="img/marketplace.png">Marketplace</a>
+                <a href="#"><img src="img/watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+
+            <div class="shortcut-link">
+                <p>Your shortcuts</p>
+                <a href="#"><img src="img/shortcut-1.png">Web Developer</a>
+                <a href="#"><img src="img/shortcut-2.png">Web Design</a>
+                <a href="#"><img src="img/shortcut-3.png">Full stack Development</a>
+                <a href="#"><img src="img/shortcut-4.png">Website expert</a>
+            </div>
+        </div>
+
+        <!-- main-content -->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story-1">
+                    <img src="img/upload.png">
+                    <p>Post story</p>
+                </div>
+                <div class="story story-2">
+                    <img src="img/member-1.png">
+                    <p>Alison</p>
+                </div>
+                <div class="story story-3">
+                    <img src="img/member-2.png">
+                    <p>Jackson</p>
+                </div>
+                <div class="story story-4">
+                    <img src="img/member-3.png">
+                    <p>Samona</p>
+                </div>
+                <div class="story story-5">
+                    <img src="img/profile-pic.png">
+                    <p>John</p>
+                </div>
+            </div>
+
+            <div class="write-post">
+                <div class="user-profile">
+                    <img src="img/profile.png">
+                    <div>
+                        <p>John Micholson</p>
+                        <small>Public <i class="fas fa-sort-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input">
+                    <textarea placeholder="what's on your mind?" rows="3"></textarea>
+                    <div class="add-post-link">
+                        <a href="#"><img src="img/live-video.png">Live Video</a>
+                        <a href="#"><img src="img/photo.png">Photo Video</a>
+                        <a href="#"><img src="img/feeling.png">Feeling Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile.png">
+                        <div>
+                            <p>John Micholson</p>
+                            <span>June 24 2021,1:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class='main-status'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam distinctio rerum
+                    magni iusto quae
+                    corporis nemo quisquam voluptatum incidunt error placeat, facilis asperiores et nostrum!
+                    nn numquam cupiditate incidunt nesciunt.</p>
+                <img src="img/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity">
+                        <div><img src="img/like-blue.png">120</div>
+                        <div><img src="img/comments.png">420</div>
+                        <div><img src="img/share.png">20</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile-pic.png">
+                        <div>
+                            <p>Micholson</p>
+                            <span>June 24 2021,1:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class='main-status'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam distinctio rerum
+                    magni iusto quae
+                    corporis nemo quisquam.</p>
+                <img src="img/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity">
+                        <div><img src="img/like.png">120</div>
+                        <div><img src="img/comments.png">420</div>
+                        <div><img src="img/share.png">20</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile.png">
+                        <div>
+                            <p>John Micholson</p>
+                            <span>June 24 2021,1:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class='main-status'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam distinctio rerum
+                    magni iusto quae
+                    corporis nemo quisquam voluptatum incidunt error placeat, facilis asperiores et nostrum!
+                    nn numquam cupiditate incidunt nesciunt.</p>
+                <img src="img/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity">
+                        <div><img src="img/like-blue.png">120</div>
+                        <div><img src="img/comments.png">420</div>
+                        <div><img src="img/share.png">20</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile.png">
+                        <div>
+                            <p>John Micholson</p>
+                            <span>June 24 2021,1:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class='main-status'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam distinctio rerum
+                    magni iusto quae
+                    corporis nemo quisquam voluptatum incidunt error placeat, facilis asperiores et nostrum!
+                    nn numquam cupiditate incidunt nesciunt.</p>
+                <img src="img/feed-image-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity">
+                        <div><img src="img/like-blue.png">120</div>
+                        <div><img src="img/comments.png">420</div>
+                        <div><img src="img/share.png">20</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile.png">
+                        <div>
+                            <p>John Micholson</p>
+                            <span>June 24 2021,1:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class='main-status'></p>
+                <img src="img/feed-image-5.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity">
+                        <div><img src="img/like-blue.png">120</div>
+                        <div><img src="img/comments.png">420</div>
+                        <div><img src="img/share.png">20</div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="load-more-btn">Load More</button>
+        </div>
+
+        <!-- right sidebar -->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>
+                        Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>April</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>
+                        Rajan Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="img/advertisement.png" class="sidebar-advs">
+            <div class="sidebar-title">
+                <h4>Converstions</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/member-1.png">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/member-2.png">
+                </div>
+                <p>Jackson Aston</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/member-3.png">
+                </div>
+                <p>Alison Mkina</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>Copyright 2021 &copy; by Rjn. All Rights Reserved.</p>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
