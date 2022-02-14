@@ -6,6 +6,9 @@
     padding: 10px;
     font-family: 'poppins', 'www-serif';
     box-sizing: border;
+    padding: 20px;
+    font-family: 'poppins', 'sxxans-serif';
+    box-sizing: box;
 }
 
 :root{
